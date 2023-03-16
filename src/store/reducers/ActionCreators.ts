@@ -1,8 +1,8 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 import { IUser } from "../models/IUser";
-import { AppDispatch } from "../store";
-import { userSlice } from "./UserSlice";
+// import { AppDispatch } from "../store";
+// import { userSlice } from "./UserSlice";
 
 function getErrorMessage(error: unknown) {
   if (error instanceof Error) return error.message;

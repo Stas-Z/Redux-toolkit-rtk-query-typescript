@@ -30,3 +30,12 @@
   display: flex;
   justify-content: space-between;
 }
+
+.title__head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title__head button {
+  padding: 10px 15px;
+}
