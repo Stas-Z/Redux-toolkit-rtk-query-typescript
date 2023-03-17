@@ -18,6 +18,7 @@ const Dropdown:FC<ILimitProps> = ({limit , setLimit}:ILimitProps) => {
     { value: 3, label: "3" },
     { value: 5, label: "5" },
     { value: 10, label: "10" },
+    { value: 100, label: "100" },
   ];
   return (
     <div className="dropdown">
